@@ -1,0 +1,18 @@
+patch:  # 皮肤（需备份）
+  preset_color_schemes:
+    purity_of_form_custom:
+      name: 仿mac
+      font_point: 24                           # 候选文字大小
+      label_font_point: 15                     # 候选编号大小
+      corner_radius: 6                         # 窗口圆角
+      candidate_text_color: 0x000000           # 预选项文字颜色
+      back_color: 0xefeff1                     # 候选条背景色，24位色值，16进制，BGR顺序
+      hilited_text_color: 0x000000             # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xFFFFFF             # 第一候选项背景背景色
+      hilited_candidate_text_color: 0xFFFFFF   # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xdf5400   # 候选文字背景色
+      comment_text_color: 0x6D6D6D             # 拼音等提示文字颜色
+      hilited_comment_text_color: 0xEBC6B0     # 注解文字高亮
+      hilited_candidate_label_color: 0xfafafa  # 第一候选项编号颜色
+      candidate_list_layout: linear        # 候选项排列方向 stacked(默认) | linear
+      text_orientation: horizontal          # 文字排列方向 horizontal(默认) | vertical
